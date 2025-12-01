@@ -28,3 +28,7 @@ macro_rules! aoc_days {
         }
     };
 }
+
+aoc_days! {
+    "01" => day01
+}
