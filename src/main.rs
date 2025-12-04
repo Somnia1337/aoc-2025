@@ -1,3 +1,7 @@
+#![allow(clippy::cast_possible_truncation)]
+#![allow(clippy::cast_possible_wrap)]
+#![allow(clippy::cast_sign_loss)]
+
 macro_rules! aoc_days {
     ($($day:literal => $mod:ident),+ $(,)?) => {
         $(
@@ -32,4 +36,5 @@ macro_rules! aoc_days {
 aoc_days! {
     "01" => day01,
     "02" => day02,
+    "03" => day03,
 }
