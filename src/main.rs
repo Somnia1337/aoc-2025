@@ -1,5 +1,6 @@
 #![allow(clippy::cast_possible_truncation)]
 #![allow(clippy::cast_possible_wrap)]
+#![allow(clippy::cast_precision_loss)]
 #![allow(clippy::cast_sign_loss)]
 
 macro_rules! aoc_days {
@@ -43,4 +44,5 @@ aoc_days! {
     "07" => day07,
     "08" => day08,
     "09" => day09,
+    "10" => day10,
 }
